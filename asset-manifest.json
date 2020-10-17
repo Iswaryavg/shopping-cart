@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Iswaryavg/shopping-cart/static/css/main.3c5e45bc.chunk.css",
+    "main.js": "/Iswaryavg/shopping-cart/static/js/main.e8640e33.chunk.js",
+    "main.js.map": "/Iswaryavg/shopping-cart/static/js/main.e8640e33.chunk.js.map",
+    "runtime-main.js": "/Iswaryavg/shopping-cart/static/js/runtime-main.fb675092.js",
+    "runtime-main.js.map": "/Iswaryavg/shopping-cart/static/js/runtime-main.fb675092.js.map",
+    "static/js/2.ddd1ec1b.chunk.js": "/Iswaryavg/shopping-cart/static/js/2.ddd1ec1b.chunk.js",
+    "static/js/2.ddd1ec1b.chunk.js.map": "/Iswaryavg/shopping-cart/static/js/2.ddd1ec1b.chunk.js.map",
+    "index.html": "/Iswaryavg/shopping-cart/index.html",
+    "precache-manifest.1c39e38ab05d0833d645e8c2eb1a6131.js": "/Iswaryavg/shopping-cart/precache-manifest.1c39e38ab05d0833d645e8c2eb1a6131.js",
+    "service-worker.js": "/Iswaryavg/shopping-cart/service-worker.js",
+    "static/css/main.3c5e45bc.chunk.css.map": "/Iswaryavg/shopping-cart/static/css/main.3c5e45bc.chunk.css.map",
+    "static/js/2.ddd1ec1b.chunk.js.LICENSE.txt": "/Iswaryavg/shopping-cart/static/js/2.ddd1ec1b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fb675092.js",
+    "static/js/2.ddd1ec1b.chunk.js",
+    "static/css/main.3c5e45bc.chunk.css",
+    "static/js/main.e8640e33.chunk.js"
+  ]
+}

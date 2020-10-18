@@ -64,13 +64,13 @@ const getCartTotal = () => {
         
    
   return (
-    <Router>
+    <Router basename="/">
     <div className="App">
       <Header cart={cart}  /> 
       <main className="py-3">
 <Container>
-<Route path='/' component={(props)=><Homescreen products={products} addtocart={handleCart} category={cart}/>} exact />            
-<Route path='/cart' component={(props)=><Cartscreen cart={cart} removefromcart={handleRemove} cartitem={cartitem} setQuantity={setQuantity} clearcart={handleclearcart} total={getCartTotal} exact />   }/>
+<Route path='/Iswaryavg/shopping-cart' component={(props)=><Homescreen products={products} addtocart={handleCart} category={cart}/>} exact />            
+<Route exact path='/cart' component={(props)=><Cartscreen cart={cart} removefromcart={handleRemove} cartitem={cartitem} setQuantity={setQuantity} clearcart={handleclearcart} total={getCartTotal}  />   }/>
 
 </Container>
   </main>

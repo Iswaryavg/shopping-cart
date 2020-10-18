@@ -1,4 +1,5 @@
 import React,{useState} from 'react'
+
 import { Row, Col,Card,Button } from 'react-bootstrap'
 
 const Homescreen = (props) => {
@@ -18,8 +19,8 @@ const Homescreen = (props) => {
          Rating:{product.rating}<br/>
           Reviews:{product.numReviews}
           </Card.Text>
-        <Card.Text as='div'>Price:£{product.price}</Card.Text>
-       {product.name.includes('sofa')&&<Card.Text as='h3'><img src="/images/size-icon.png" width="200"/></Card.Text>}
+        <Card.Text as='div'>Price:£{product.price}</Card.Text>    {product.name.includes('sofa')&&<Card.Text as='h3'>
+        <img alt="size" src='size-icon.png'  width="200"  /></Card.Text>}
       {product.seater> 0 &&<div>{product.category}  sofa
     </div>   }
       </Card.Body>

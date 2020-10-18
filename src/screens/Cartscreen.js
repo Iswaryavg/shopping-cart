@@ -34,7 +34,7 @@ function cartdiscount(){
     else if((success.length)==2)
     {
      var isEvery = success.every(item => success.includes('seater-2','table'));
-     var seattable = success.every((item) =>success.includes("seater-1", "table")
+     var seattable = success.every((item) =>success.includes("seater-1", "table"));
   
      if(isEvery==true){ return res=0.10}  
      if (seattable == true) {

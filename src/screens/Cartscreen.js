@@ -99,12 +99,12 @@ function finalamount(){
 
                 <br/>
                 <strong className="cart-total-title">Discount {cartdiscount()*100}%</strong>
-                <span className="cart-total-price">{(cartdiscount()*getTotalsum()).toFixed(2)}</span>
+                <span className="cart-total-price">£{(cartdiscount()*getTotalsum()).toFixed(2)}</span>
            
                 <br/>
                 <strong className="cart-total-title">Your pay</strong>
          
-                <span className="cart-total-price">{finalamount().toFixed(2)}</span> 
+                <span className="cart-total-price">£{finalamount().toFixed(2)}</span> 
             </div>
       
             <br/>
